@@ -1,0 +1,70 @@
+Python cache and build artifacts
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+Virtual Environments
+
+venv/
+env/
+.env
+.venv
+
+Secrets & Credentials
+
+This will hide your JSON key file and other common secret files
+
+*.json
+key.json
+credentials.json
+*.env
+
+Data Files
+
+Ignore all CSV files, data files, and the 'data/' directory
+
+*.csv
+*.data
+*.sqlite
+/data/
+
+Specifically ignore the large data files we've been using
+
+full_data_with_targets.csv
+merge_1.csv
+data_with_features.csv
+
+Saved Models
+
+Ignore common formats for saved ML models
+
+*.pkl
+*.joblib
+*.h5
+*.model
+
+IDE & Editor Configs
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+OS-specific files
+
+.DS_Store
+Thumbs.db
+
+Jupyter Notebook Checkpoints
+
+.ipynb_checkpoints/
+"ING Voice assistent.ipynb"
+
+Log files
+
+*.log
